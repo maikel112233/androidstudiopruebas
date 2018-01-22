@@ -1,0 +1,59 @@
+<!--<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>-->
+<resources>
+<style name="AppTheme" parent="Base.Theme.AppCompat.Dialog"></style>
+<style name="titulo">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textSize">@dimen/texto_titulo</item>
+</style>
+<style name="boton">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:minWidth">@dimen/ancho_min_boton</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_margin">@dimen/texto_boton</item>
+    <item name="android:textSize">@dimen/texto_boton</item>
+    <item name="android:onClick">aJugar</item>
+
+
+</style>
+<style name="radio">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:alpha">0.8</item>
+</style>
+<style name="casilla">
+    <item name="android:layout_width">@dimen/casilla</item>
+    <item name="android:layout_height">@dimen/casilla</item>
+    <item name="android:src">@drawable/casilla</item>
+    <item name="android:onClick">toque</item>
+</style>
+
+
+<!-- Base application theme.
+<style name="AppTheme" parent="Theme.AppCompat.Light">
+    <! Customize your theme here. >
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+</style>
+
+<style name="AppTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+</style>
+
+<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+
+</resources>
